@@ -1,4 +1,4 @@
-local MODS = {
+local PremID = {
     [2266148679] = true;
     [2397051771] = true;
     [295929784] = true; 
@@ -10,12 +10,11 @@ local MODS = {
     [20462347] = true;
     [2285747286] = true;
     [3572571860] = true;
-    [4578O9438] = true;
 }
 
-local function main()
+local function Emoji_System()
 	for i,v in pairs(game.Players:GetChildren()) do
-		if MODS[v.UserId] then
+		if PremID[v.UserId] then
 			if v.Character then
 				if v.Character.Parent.Name == 'Players' then
 					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[⭐]'..v.DisplayName)
@@ -30,6 +29,5 @@ local function main()
 		end
 	end
 end
-local success, err = pcall(main)
-if err then print(err) end
-return MODS
+local success, err = pcall(Emoji_System)
+return PremID
