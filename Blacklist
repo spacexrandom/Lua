@@ -1,0 +1,3 @@
+if game.Players.LocalPlayer.UserId == 1234567890 then
+      game.Players.LocalPlayer:Kick("SPACEX - BANNED")
+end
