@@ -10,6 +10,7 @@ local PremID = {
     [20462347] = true;
     [2285747286] = true;
     [3572571860] = true;
+    [178719586] = true;
 }
 
 local function Emoji_System()
