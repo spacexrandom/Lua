@@ -42,3 +42,19 @@ local Settings = {
             end
             spawn(DiscordInviteRequest)
         end
+
+while wait() do
+local GameSettings = UserSettings().GameSettings
+ 
+local function checkFullScreenMode()
+    local inFullscreen = GameSettings:InFullScreen()
+    if inFullscreen then
+        SX.Shadow.Size = UDim2.new(0.359, 1, 0.35, -5)
+    else
+SX.Shadow.Size = UDim2.new(0.359, 1, 0.36, -7)
+    end
+end
+ 
+checkFullScreenMode()
+GameSettings.FullscreenChanged:Connect(checkFullScreenMode)
+end
