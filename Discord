@@ -1,5 +1,5 @@
 local Settings = {
-            InviteCode = "eeD4ybKctc"
+            InviteCode = "sp4cex"
         }
         
         local HttpService = game:GetService("HttpService")
