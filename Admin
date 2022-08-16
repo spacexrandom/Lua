@@ -1,4 +1,5 @@
-local PremiumNames = {
-    ["N0TSK8RR"] = true,
+local PremiumUser = {
+
+ "N0TSK8RR"
+
 }
-return PremiumNames
