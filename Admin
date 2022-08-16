@@ -1,5 +1,4 @@
 local PremiumNames = {
-    "N0TSK8RR",
-    "testname",
+    ["N0TSK8RR"] = true,
 }
 return PremiumNames
