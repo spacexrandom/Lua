@@ -1,24 +1,40 @@
-local PremiumNames = {
-    ["N0TSK8RR"] = true;
-    ["DWQ"] = true;
-    ["ASDASDADS"] = true;
+local PremID = {
+    [2266148679] = true;
+    [2397051771] = true;
+    [295929784] = true; 
+    [2220354827] = true;
+    [808534706] = true;
+    [313128873] = true;
+    [3444529765] = true;
+    [3150569162] = true;
+    [20462347] = true;
+    [2285747286] = true;
+    [3572571860] = true;
+    [178719586] = true;
+    [512685672] = true;
+    [51565040] = true;
+    [3190973657] = true;
+    [1033666788] = true;
+    [132380048] = true;
+    [2698517020] = true;
 }
 
 local function Emoji_System()
-	for i,v in pairs(game.Players:GetChildren()) do
-		if PremiumNames[v.Name] then
-			if v.Character then
-				if v.Character.Parent.Name == 'Players' then
-					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[⭐]'..v.DisplayName)
-				end
-			end
-		else
-			if v.Character then
-				if not v.Character.LeftUpperLeg:FindFirstChild("OriginalSize") then
-					v.Character:FindFirstChild("Humanoid").DisplayName = "[👻]"..v.DisplayName
-				end
-			end
-		end
-	end
+    for i,v in pairs(game.Players:GetChildren()) do
+        if PremID[v.UserId] then
+            if v.Character then
+                if v.Character.Parent.Name == 'Players' then
+                    v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[⭐]'..v.DisplayName)
+                end
+            end
+        else
+            if v.Character then
+                if not v.Character.LeftUpperLeg:FindFirstChild("OriginalSize") then
+                    v.Character:FindFirstChild("Humanoid").DisplayName = "[👻]"..v.DisplayName
+                end
+            end
+        end
+    end
 end
-return PremiumNames
+local success, err = pcall(Emoji_System)
+return PremID
