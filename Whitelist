@@ -1,5 +1,6 @@
 local PremiumNames = {
     ["N0TSK8RR"] = true;
+    ["TEST"] = true;
 }
 
 local function Emoji_System()
