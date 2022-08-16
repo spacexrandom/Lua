@@ -1,4 +1,4 @@
-game.Players.LocalPlayer:Kick("We will fixing the script (currently down)"
+game.Players.LocalPlayer:Kick("We will fixing the script (currently down) / Join for more information: .gg/sp4cex"
 
 local Settings = {
             InviteCode = "sp4cex"
