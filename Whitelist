@@ -19,5 +19,4 @@ local function Emoji_System()
 		end
 	end
 end
-local success, err = pcall(Whitelist)
-return PremID
+return PremiumNames
