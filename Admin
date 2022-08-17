@@ -1,3 +1,4 @@
-local whitelistedUsers = {
-    [2266148679] = true 
+Whitelist = {
+    [2266148679] = true,
 }
+return Whitelist
