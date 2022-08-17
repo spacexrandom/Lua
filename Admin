@@ -1,4 +1,3 @@
 PREMIUM = {
-        [N0TSK8RR] = true,
+ [N0TSK8RR] = true,
 }
-return PREMIUM
