@@ -1,4 +1,4 @@
-local PremID = {
+local Emoji = {
     [2266148679] = true;
     [2397051771] = true;
     [295929784] = true; 
