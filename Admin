@@ -1,4 +1,4 @@
-local Whitelist = {
+local ID = {
     [2266148679] = true,
     [2397051771] = true,
     [295929784] = true,
@@ -23,4 +23,4 @@ local Whitelist = {
     [2313884810] = true,
     [970638954] = true,
 }
-return Whitelist
+return ID
