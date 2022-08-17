@@ -1,5 +1,4 @@
-local PremiumUser = {
-
- "2266148679"
-
+PREMIUM = {
+        [2683624084] = true,
 }
+return PREMIUM
