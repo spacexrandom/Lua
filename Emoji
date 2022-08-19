@@ -45,4 +45,4 @@ local function Emoji_System()
     end
 end
 local success, err = pcall(Emoji_System)
-return PremID
+return Emoji
