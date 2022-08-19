@@ -25,5 +25,6 @@ local ID = {
     [2370484237] = true,
     [3781155676] = true, -- 2 boost and 375 R$
     [1753680096] = true,
+    [3152692681] = true,
 }
 return ID
