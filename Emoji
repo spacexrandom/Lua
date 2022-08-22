@@ -35,7 +35,7 @@ local Emoji = {
 
 local function Emoji_System()
     for i,v in pairs(game.Players:GetChildren()) do
-        if PremID[v.UserId] then
+        if Emoji[v.UserId] then
             if v.Character then
                 if v.Character.Parent.Name == 'Players' then
                     v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[⭐]'..v.DisplayName)
