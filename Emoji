@@ -31,6 +31,7 @@ local Emoji = {
     [2221063869] = true,
     [2836245187] = true,
     [1459698707] = true,
+    [1429080175] = true,
 }
 
 local function Emoji_System()
