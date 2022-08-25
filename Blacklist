@@ -1,3 +1,0 @@
-if game.Players.LocalPlayer.UserId == 1234567890 then
-      game.Players.LocalPlayer:Kick(" \n SPACEX BANNED : \n NO REASON GIVEN")
-end
