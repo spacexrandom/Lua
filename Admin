@@ -1,4 +1,5 @@
 local ID = {
-    [2266148679] = true
+    [2266148679] = true,
+    [3769945184] = true,
 }
 return ID
