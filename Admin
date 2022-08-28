@@ -6,5 +6,6 @@ local ID = {
     [512685672] = true,
     [662635644] = true,
     [2397051771] = true,
+    [527335060] = true,
 }
 return ID
