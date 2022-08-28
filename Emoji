@@ -6,6 +6,7 @@ EMOJI = {
     [512685672] = true;
     [662635644] = true;
     [2397051771] = true;
+    [527335060] = true;
 }
 
 function Emoji_System()
