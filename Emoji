@@ -21,6 +21,4 @@ function Emoji_System()
         end
     end
 end
-
-local successful, errored = pcall(Emoji_System)
 return EMOJI
