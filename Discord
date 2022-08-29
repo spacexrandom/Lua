@@ -1,45 +1,18 @@
-local Settings = {
-            InviteCode = "3zf4mAt4vG"
-        }
-        
-        -- Objects
-        local HttpService = game:GetService("HttpService")
-        local RequestFunction
-        
-        if syn and syn.request then
-            RequestFunction = syn.request
-        elseif request then
-            RequestFunction = request
-        elseif http and http.request then
-            RequestFunction = http.request
-        elseif http_request then
-            RequestFunction = http_request
-        end
-        
-        local DiscordApiUrl = "http://127.0.0.1:%s/rpc?v=1"
-        
-        if not RequestFunction then
-            return print("Your executor does not support http requests.")
-        end
-        
-        for i = 6453, 6464 do
-            local DiscordInviteRequest = function()
-                local Request = RequestFunction({
-                    Url = string.format(DiscordApiUrl, tostring(i)),
-                    Method = "POST",
-                    Body = HttpService:JSONEncode({
-                        nonce = HttpService:GenerateGUID(false),
-                        args = {
-                            invite = {code = Settings.InviteCode},
-                            code = Settings.InviteCode
-                        },
-                        cmd = "INVITE_BROWSER"
-                    }),
-                    Headers = {
-                        ["Origin"] = "https://discord.com",
-                        ["Content-Type"] = "application/json"
-                    }
-                })
-            end
-            spawn(DiscordInviteRequest)
-        end
+local http_request = http_request or request or syn.request;
+local a = {
+	['cmd'] = 'INVITE_BROWSER',
+	['args'] = {
+		["code"] = '3zf4mAt4vG'
+	},
+	['nonce'] = game:GetService('HttpService'):GenerateGUID(true)
+}
+
+http_request({
+	Url = 'http://127.0.0.1:6463/rpc?v=1',
+	Method = 'POST',
+	Headers = {
+		['Content-Type'] = 'application/json',
+		['Origin'] = 'https://discord.com'
+	},
+	Body = game:GetService('HttpService'):JSONEncode(a)
+})
