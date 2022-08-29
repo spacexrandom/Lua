@@ -1,3 +1,0 @@
-if game.Players.LocalPlayer.UserId == 704597875 then
-game.Players.LocalPlayer:Kick('Blacklisted')
-end
