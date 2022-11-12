@@ -1,5 +1,5 @@
 local whitelisted = {
-	[123456789] = true,
+	[2266148679] = true,
 }
 
 function Emoji()
