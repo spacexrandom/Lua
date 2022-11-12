@@ -1,1 +1,4 @@
-
+local whitelisted = {
+  [2266148679] = true,
+}
+return whitelisted 
