@@ -1,1 +1,17 @@
+local whitelisted = {
+	[123456789] = true,
+}
 
+function Emoji()
+	for _,v in pairs(game:GetService('Players'):GetChildren()) do
+		if whitelisted[v.UserId] then
+			if v.Character then
+				if v.Character.Parent.Name == 'Players' then
+					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[⭐]'..v.DisplayName)
+				end
+			end
+		end
+	end
+end
+local success,err = pcall(Emoji)
+return whitelisted
