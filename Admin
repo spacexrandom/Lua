@@ -3,5 +3,6 @@ local whitelisted = {
   [95199610] = true,
   [3359416636] = true,
   [9796712829] = true,
+  [1283827958] = true,
 }
 return whitelisted 
