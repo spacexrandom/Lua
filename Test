@@ -1,4 +1,1 @@
-local ABC = {
-    "Hello Bro"
-}
-return ABC 
+hello bro
