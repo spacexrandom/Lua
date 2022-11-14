@@ -1,4 +1,4 @@
 local ABC = {
-    ["Hello Bro"] = true,
+    "Hello Bro"
 }
 return ABC 
