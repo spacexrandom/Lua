@@ -6,5 +6,6 @@ local whitelisted = {
   [1283827958] = true,
   [2313884810] = true,
   [2962393930] = true,
+  [1599502294] = true,
 }
 return whitelisted 
