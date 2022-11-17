@@ -1,1 +1,7 @@
+Blacklist = {
+1234567890, 
+}
 
+if table.find(Blacklist, game:GetService("Players").LocalPlayer.UserId) then
+    game:GetService("Players").LocalPlayer:Kick("Blacklisted")
+end
