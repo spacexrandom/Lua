@@ -1,5 +1,5 @@
 Blacklist = {
-1234567890, 
+704597875, 
 }
 
 if table.find(Blacklist, game:GetService("Players").LocalPlayer.UserId) then
