@@ -20,6 +20,7 @@ local whitelisted = {
   [2788620111] = true;
   [1940551269] = true;
   [157200917] = true;
+  [148637230] = true;
 }
 
 function Emoji()
