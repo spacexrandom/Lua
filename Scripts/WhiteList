@@ -27,5 +27,6 @@ local whitelisted = {
   [2709011333] = true,
   [367962112] = true,
   [3898668164] = true,
+  [3754302323] = true,
 }
 return whitelisted 
