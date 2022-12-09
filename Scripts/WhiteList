@@ -30,5 +30,6 @@ local whitelisted = {
   [3754302323] = true,
   [3705561519] = true,
   [2262258009] = true,
+  [2801808656] = true,
 }
 return whitelisted 
