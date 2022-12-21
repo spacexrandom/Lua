@@ -38,6 +38,7 @@ whitelisted = {
   [123869310] = true;
   [36566543] = true;
   [3386355217] = true;
+  [125046344] = true;
 }
 
 function Emoji()
