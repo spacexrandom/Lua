@@ -40,6 +40,7 @@ whitelisted = {
   [3386355217] = true;
   [125046344] = true;
   [2296923316] = true;
+  [3246443098] = true;
 }
 
 function Emoji()
