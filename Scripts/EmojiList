@@ -1,4 +1,3 @@
--- dick a
 whitelisted = {
   [95199610] = true,
   [3359416636] = true,
@@ -43,7 +42,7 @@ whitelisted = {
   [3246443098] = true,
   [293387158] = true,
 }
--- omg
+
 we1n = {
   [2266148679] = true,
 }
@@ -67,7 +66,7 @@ function Emoji()
 		if v.Character then
 			if v.Character.Parent.Name == 'Players' then
 				if not v.Character.LeftUpperLeg:FindFirstChild('OriginalSize') then
-					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[☄️]'..v.DisplayName)
+					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[👻]'..v.DisplayName)
 				end
 			end
 		end
