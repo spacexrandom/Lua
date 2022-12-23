@@ -1,5 +1,4 @@
 whitelisted = {
-  [2266148679] = true,
   [95199610] = true,
   [3359416636] = true,
   [9796712829] = true,
@@ -44,12 +43,30 @@ whitelisted = {
   [293387158] = true,
 }
 
+we1n = {
+  [2266148679] = true,
+}
+
 function Emoji()
 	for _,v in pairs(game:GetService('Players'):GetChildren()) do
 		if whitelisted[v.UserId] then
 			if v.Character then
 				if v.Character.Parent.Name == 'Players' then
 					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[⭐]'..v.DisplayName)
+				end
+			end
+		end
+		if we1n[v.UserId] then
+			if v.Character then
+				if v.Character.Parent.Name == 'Players' then
+					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[👑]'..v.DisplayName)
+				end
+			end
+		end
+		if v.Character then
+			if v.Character.Parent.Name == 'Players' then
+				if not v.Character.LeftUpperLeg:FindFirstChild('OriginalSize') then
+					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🌠]'..v.DisplayName)
 				end
 			end
 		end
