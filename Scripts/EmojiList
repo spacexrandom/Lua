@@ -57,15 +57,13 @@ function Emoji()
 					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[⭐]'..v.DisplayName)
 				end
 			end
-		end
-		if we1n[v.UserId] then
+		elseif we1n[v.UserId] then
 			if v.Character then
 				if v.Character.Parent.Name == 'Players' then
 					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[👑]'..v.DisplayName)
 				end
 			end
-		end
-		if v.Character then
+		elseif v.Character then
 			if v.Character.Parent.Name == 'Players' then
 				if not v.Character.LeftUpperLeg:FindFirstChild('OriginalSize') then
 					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[😎]'..v.DisplayName)
