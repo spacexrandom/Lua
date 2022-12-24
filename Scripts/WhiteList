@@ -43,5 +43,6 @@ whitelisted = {
   [3246443098] = true,
   [293387158] = true,
   [107486471] = true,
+  [2700099862] = true,
 }
 return whitelisted 
