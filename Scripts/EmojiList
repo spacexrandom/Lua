@@ -50,9 +50,10 @@ whitelisted = {
   [3900200572] = true,
   [3366892146] = true,
   [1024750395] = true,
+  [4092876281] = true,
 }
 
-we1n = {
+staff = {
   [2266148679] = true,
 }
 
@@ -64,7 +65,7 @@ function Emoji()
 					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[⭐]'..v.DisplayName)
 				end
 			end
-		elseif we1n[v.UserId] then
+		elseif staff[v.UserId] then
 			if v.Character then
 				if v.Character.Parent.Name == 'Players' then
 					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[👑]'..v.DisplayName)
