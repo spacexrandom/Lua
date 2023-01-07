@@ -1,4 +1,4 @@
-local Premium = {
+Premium = {
   [95199610] = true,
   [3359416636] = true,
   [9796712829] = true,
@@ -80,9 +80,10 @@ local Premium = {
   [1207972608] = true,
   [3059150982] = true,
   [898635617] = true,
+  [3700130379] = true,
 }
 
-local Devoloper = {
+Devoloper = {
 	[2266148679] = true,
 }
 
