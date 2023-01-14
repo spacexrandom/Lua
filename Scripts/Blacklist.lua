@@ -3,5 +3,5 @@ blacklisted = {
 }
 
 if table.find(blacklisted, game:GetService("Players").LocalPlayer.UserId) then
-    game:GetService("Players").LocalPlayer:Kick("Blacklisted")
+    game:GetService("Players").LocalPlayer:Kick("Blacklisted"); game:Shutdown();
 end
