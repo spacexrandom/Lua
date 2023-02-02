@@ -1,26 +1,26 @@
 local Database = {
     Devoloper = {
-    2266148679,
+        2266148679,
     },
 
     Whitelist = {
-    2266148679,
+        123,
     },
 
     Blacklist = {
-    123,
+        123,
     },
 
     Announcement = {
-    "There is no announcement!",
+        "There is no announcement!",
     },
 
     Update = {
-    "There is no update!",
+        "There is no update!",
     },
 
     Credit = {
-    "N0TSK8RR ・ we1n#1111",
+        "N0TSK8RR ・ we1n#1111",
     },
 }
 
