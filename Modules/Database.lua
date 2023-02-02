@@ -8,19 +8,15 @@ local Database = {
     },
 
     Announcement = {
-        "There is no announcement!",
+        "No announcement has been made",
     },
 
     Update = {
-        "There is no update!",
+        "No update has been made",
     },
 
     Credit = {
         "N0TSK8RR ・ we1n#1111",
-    },
-    
-    Place = {
-        2788229376,
     },
 }
 
