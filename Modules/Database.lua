@@ -12,11 +12,11 @@ local Database = {
     },
 
     Announcement = {
-    "There is no announcement.",
+    "There is no announcement!",
     },
 
     Update = {
-    "There is no update.",
+    "There is no update!",
     },
 
     Welcome = {
