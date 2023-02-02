@@ -8,7 +8,7 @@ local Database = {
     },
 
     Blacklist = {
-    3382378333,
+    123,
     },
 
     Announcement = {
