@@ -18,6 +18,10 @@ local Database = {
     Credit = {
         "N0TSK8RR ・ we1n#1111",
     },
+    
+    Games = {
+        2788229376,
+    },
 }
 
 return Database
