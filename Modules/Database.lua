@@ -19,7 +19,7 @@ local Database = {
         "N0TSK8RR ・ we1n#1111",
     },
     
-    Games = {
+    Place = {
         2788229376,
     },
 }
