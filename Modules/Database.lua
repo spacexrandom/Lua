@@ -1,8 +1,4 @@
 local Database = {
-    Devoloper = {
-        2266148679,
-    },
-
     Whitelist = {
         2266148679,
     },
