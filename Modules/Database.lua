@@ -19,10 +19,6 @@ local Database = {
     "There is no update!",
     },
 
-    Welcome = {
-    "Welcome",
-    },
-
     Credit = {
     "N0TSK8RR ・ we1n#1111",
     },
