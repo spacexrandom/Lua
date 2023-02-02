@@ -4,7 +4,7 @@ local Database = {
     },
 
     Whitelist = {
-    123,
+    2266148679,
     },
 
     Blacklist = {
