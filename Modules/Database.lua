@@ -2,6 +2,8 @@ local Database = {
     Whitelist = {
         2266148679,
         2313884810,
+        537479847,
+        3754033980,
     },
 
     Blacklist = {
