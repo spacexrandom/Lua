@@ -8,11 +8,11 @@ local Database = {
     },
 
     Announcement = {
-        "No announcement has been made",
+        "Join us! discord.gg/jbJByrRWG9",
     },
 
     Update = {
-        "No update has been made",
+        "Big update has been released! (Check #update-log for more information)",
     },
 
     Credit = {
