@@ -12,7 +12,7 @@ local Database = {
     },
 
     Update = {
-        "Big update has been released! (Check #update-log for more information)",
+        "Big update has been released! (#update-log)",
     },
 
     Credit = {
