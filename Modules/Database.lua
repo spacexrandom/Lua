@@ -32,6 +32,7 @@ local Database = {
 
     Blacklist = {
         704597875,
+        2685305359,
     },
 
     Announcement = {
