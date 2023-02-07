@@ -46,7 +46,7 @@ local Database = {
     },
 
     Announcement = {
-        "Join us! discord.gg/jbJByrRWG9",
+        "Join 2 purchase spacex premium. discord.gg/jbJByrRWG9",
     },
 
     Update = {
