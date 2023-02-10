@@ -51,11 +51,11 @@ local Database = {
     },
 
     Announcement = {
-        "New update coming today!",
+        "No announcement has been made!",
     },
 
     Update = {
-        "Big update has been released! (#update-log)",
+        "No update has been made!",
     },
 
     Credit = {
