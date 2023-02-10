@@ -56,7 +56,7 @@ local Database = {
     },
 
     Update = {
-        "New update has been released! check (#updates)",
+        "New update has been released! (check #updates)",
     },
 
     Credit = {
