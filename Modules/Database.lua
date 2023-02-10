@@ -42,6 +42,7 @@ local Database = {
         3744874215,
         3770553607,
         2492240659,
+        2258461567,
     },
 
     Blacklist = {
@@ -55,7 +56,7 @@ local Database = {
     },
 
     Update = {
-        "No update has been made!",
+        "No announcement has been made!",
     },
 
     Credit = {
