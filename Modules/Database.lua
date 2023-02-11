@@ -54,11 +54,11 @@ local Database = {
     },
 
     Announcement = {
-        "No announcement has been made!",
+        "Join us! discord.gg/jbJByrRWG9",
     },
 
     Update = {
-        "New update has been released! (check #updates)",
+        "Fixed premium bypass (L space)",
     },
 
     Credit = {
