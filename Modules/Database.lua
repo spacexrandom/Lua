@@ -60,7 +60,7 @@ local Database = {
     },
 
     Update = {
-        "No update has been made",
+        "Bug fixes: god modes, prem commands",
     },
 
     Credit = {
