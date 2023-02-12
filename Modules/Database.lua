@@ -60,7 +60,7 @@ local Database = {
     },
 
     Update = {
-        "Fixed premium bypass (L space)",
+        "No update has been made",
     },
 
     Credit = {
