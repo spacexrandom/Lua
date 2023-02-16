@@ -64,7 +64,7 @@ local Database = {
     },
 
     Announcement = {
-        "Join us! discord.gg/jbJByrRWG9",
+        "God modes and reach has patched. discord.gg/jbJByrRWG9",
     },
 
     Update = {
