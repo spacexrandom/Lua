@@ -82,7 +82,7 @@ local Database = {
     },
 
     Announcement = {
-        "God modes and reach has patched. discord.gg/jbJByrRWG9",
+        "Da hood developers patching so much scripts. (gods, anti stomps, reach, anti bag)",
     },
 
     Update = {
