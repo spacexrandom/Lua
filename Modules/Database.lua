@@ -85,7 +85,7 @@ local Database = {
     },
 
     Announcement = {
-        "Da hood developers patching so much scripts. (gods, anti stomps, reach, anti bag)",
+        "Patched scripts: (force reset, gods, anti stomps, reach, anti bag)",
     },
 
     Update = {
