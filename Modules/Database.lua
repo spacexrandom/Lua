@@ -102,13 +102,15 @@ local Database = {
         3656041166,
         3370566177,
     },
+    
+    Maintenance = false
 
     Announcement = {
-        "Patched scripts: (force reset, gods, anti stomps, reach, anti bag)",
+        "No announcement has been made!",
     },
 
     Update = {
-        "Bug fixes: god modes, prem commands",
+        "No update has been made!",
     },
 
     Credit = {
