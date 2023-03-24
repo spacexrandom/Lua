@@ -103,8 +103,6 @@ local Database = {
         3656041166,
         3370566177,
     },
-    
-    Maintenance = false
 
     Announcement = {
         "No announcement has been made!",
