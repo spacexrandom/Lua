@@ -127,7 +127,7 @@ local Database = {
     },
 
     Credit = {
-        "N0TSK8RR ・ wein#7777",
+        "0neHeartWein ・ wein#7777",
     },
     
     Invite = {
